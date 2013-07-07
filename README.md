@@ -17,7 +17,7 @@ You need to be able to upload files to your server. There are workarounds for th
 I include an example html file to get you started. The file is labeled 'example.html' so you can't miss it.
 You will notice that everything works with a div wrapped around an img tag with a class of 'protected' and 'unprotected' which are referenced in the separate style.css file and include the specific media targeting for mobile devices to disallow touch events on images.
 
-### Disabling right-clicking on images.
+### Disabling right-clicking on images (img)
 
 This is a simple snippet of javascript. I use jquery for brevity in the example.js file. It turns off right clicking of any img tage with class named 'protected'. 
 
@@ -29,10 +29,10 @@ Here is the code:
 	$('body').on('contextmenu', '.protected', function(e){ return false; }); 
 	}
 
-### Disabling long-touch menu (which allows saving) on mobile
+### Disabling long-touch menu on images (which allows saving) on mobile
 
 This is a little more involved because you need separate functions for android, firefox's mobile browser, and apple devices.
-The code for apple devices is easiest, just add 
+The code for apple devices is easiest to implement, there is no javascript required, just add 
 
 	-webkit-touch-callout: none;
 

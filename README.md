@@ -23,7 +23,7 @@ This is a simple snippet of javascript. I use jquery for brevity in the example.
 
 Here is the code:
 
-	function NoClick() //turns off right clicking of mouse on desktops for any img with class named protected
+	function NoClick() 
 	{
 
 	$('body').on('contextmenu', '.protected', function(e){ return false; }); 

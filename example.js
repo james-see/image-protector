@@ -1,8 +1,10 @@
+// courtesy of http://www.jamescampbell.us  as part of the image-protector package. for instructions, please see the README file 
+
 $(document).ready(function() {
 NoClick(); NoTouch(); init()
 });
 
-function NoClick() //turns off right clicking of mouse on desktops for any img with class named protected
+function NoClick() //turns off right clicking of mouse on desktops for any img with stylesheet class named 'protected'
 {
 
 $('body').on('contextmenu', '.protected', function(e){ return false; }); 

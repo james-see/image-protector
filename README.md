@@ -33,6 +33,7 @@ Here is the code:
 
 This is a little more involved because you need separate functions for android, firefox's mobile browser, and apple devices.
 The code for apple devices is easiest, just add 
+
 	-webkit-touch-callout: none;
-	
+
 to your CSS media queries. Refer to the style.css example for details.

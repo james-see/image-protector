@@ -3,7 +3,7 @@ author: James Campbell date: July 2013
 
 ### Congratulations on wanting to protect your images online. 
 
-The goal of this project is to make it as easy as possible to project the images on your site.
+The goal of this project is to make it as easy as possible to _somewhat_ protect the images on your site. If you really don't want people to steal your images, don't post them on the web.
 
 There are a few things you need access to:
 

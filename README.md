@@ -20,4 +20,12 @@ You will notice that everything works with a div wrapped around an img tag with 
 
 ### Disabling right-clicking on entire page.
 
-This is a simple snippet of javascript.
+This is a simple snippet of javascript. I use jquery for brevity in the example.js file. It turns off right clicking of any img tage with class named 'protected'. 
+
+Here is the code:
+
+	function NoClick() //turns off right clicking of mouse on desktops for any img with class named protected
+	{
+
+	$('body').on('contextmenu', '.protected', function(e){ return false; }); 
+	}

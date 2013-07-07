@@ -23,11 +23,13 @@ You will notice that everything works with a div wrapped around an img tag with 
 This is a simple snippet of javascript. I use jquery for brevity in the example.js file. It turns off right clicking of any img tage with class named 'protected'. 
 
 Here is the code:
+	
 	<script type="text/javascript">
 	function NoClick() {
 	$('body').on('contextmenu', '.protected', function(e){ return false; }); 
 	}
 	</script>
+
 ### Disabling long-touch menu on images (which allows saving) on mobile
 
 This is a little more involved because you need separate functions for android, firefox's mobile browser, and apple devices.

@@ -25,7 +25,7 @@ This is a simple snippet of javascript. I use jquery for brevity in the example.
 Here is the code:
 	<script type="text/javascript">
 	function NoClick() {
-		$('body').on('contextmenu', '.protected', function(e){ return false; }); 
+	$('body').on('contextmenu', '.protected', function(e){ return false; }); 
 	}
 	</script>
 ### Disabling long-touch menu on images (which allows saving) on mobile

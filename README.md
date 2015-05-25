@@ -18,6 +18,8 @@ You need to be able to upload files to your server. There are workarounds for th
 I include an example html file to get you started. The file is labeled 'example.html' so you can't miss it.
 You will notice that everything works with a div wrapped around an img tag with a class of 'protected' and 'unprotected' which are referenced in the separate style.css file and include the specific media targeting for mobile devices to disallow touch events on images.
 
+View the page on [my codepen](http://codepen.io/jamesacampbell/pen/bdBeaq) as a live working demo version of this example.
+
 ### Disabling right-clicking on images (img)
 
 This is a simple snippet of javascript. I use jquery for brevity in the example.js file. It turns off right clicking of any img tage with class named 'protected'. 
@@ -38,3 +40,13 @@ The code for apple devices is easiest to implement, there is no javascript requi
 	-webkit-touch-callout: none;
 
 to your CSS media queries. Refer to the style.css example for details.
+
+### CSS suggested callout
+
+Here is the example version css:
+```
+.protected {
+ -webkit-touch-callout: none;
+}
+
+So you just need to reference or include this javascript in any page that you want to protect and then update your img tag with <code>class='protected'</code> and everything should work properly assuming you updated your stylesheet (css) properly with the .protected class in place.

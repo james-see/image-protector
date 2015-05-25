@@ -48,5 +48,6 @@ Here is the example version css:
 .protected {
  -webkit-touch-callout: none;
 }
+```
 
 So you just need to reference or include this javascript in any page that you want to protect and then update your img tag with <code>class='protected'</code> and everything should work properly assuming you updated your stylesheet (css) properly with the .protected class in place.

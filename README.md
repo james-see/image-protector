@@ -1,6 +1,6 @@
 author: James Campbell 
 creation date: July 2013
-----
+
 
 ### Congratulations on wanting to protect your images online 
 
